@@ -13,15 +13,15 @@ def clearning_string (str1):
 
 import os
 
-init_path = os.path.abspath('avarege for fit_n')
+init_path = input('File:\t')#os.path.abspath('avarege for fit_n')
 second_path = os.path.abspath('res2.res')
 res_path =  os.path.abspath('Result_avarege of fit_n.txt')
 
 
-if os.path.exists(init_path)==False:
-    init_path =os.path.abspath('Avarege_for_fit_n_states/avarege for fit_n')
-    second_path = os.path.abspath('Avarege_for_fit_n_states/res2.res')
-    res_path = os.path.abspath('Avarege_for_fit_n_states/Result_avarege of fit_n.txt')
+#if os.path.exists(init_path)==False:
+#    init_path =os.path.abspath('Avarege_for_fit_n_states/avarege for fit_n')
+#    second_path = os.path.abspath('Avarege_for_fit_n_states/res2.res')
+#    res_path = os.path.abspath('Avarege_for_fit_n_states/Result_avarege of fit_n.txt')
 
 
     #file3=open(second_path, 'r')

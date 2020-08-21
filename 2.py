@@ -3,9 +3,9 @@ import os
 res_path =  os.path.abspath('res.res')
 res2_path = os.path.abspath('res2.res')
 
-if os.path.exists(res_path)==False:
-    res_path = os.path.abspath('Avarege_for_fit_n_states//res.res')
-    res2_path = os.path.abspath('Avarege_for_fit_n_states/res2.res')
+#if os.path.exists(res_path)==False:
+#    res_path = os.path.abspath('Avarege_for_fit_n_states//res.res')
+#    res2_path = os.path.abspath('Avarege_for_fit_n_states/res2.res')
 
 file=open (res_path, 'r')
 file2=open(res2_path,'w')
@@ -48,7 +48,7 @@ list2=[]
 
 v0=1
 
-str1=file.readline()
+"""str1=file.readline()
 str1=str1.split()
 v1,*_=str1
 v1=int (v1)
@@ -57,6 +57,7 @@ str1=file.readline()
 
 for i in range((v1**2)*6+1):
     str1=file.readline()
+"""
 while (True):
     str1=file.readline() 
     str2=str1[0:55]

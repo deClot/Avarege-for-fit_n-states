@@ -1,11 +1,11 @@
 import os
 
-TRANS_path = os.path.abspath('TRANS.RES')
+TRANS_path = os.path.abspath('OBFULEXT.res')
 res_path = os.path.abspath ('res.res')
 
-if os.path.exists(TRANS_path)==False:
-    TRANS_path =os.path.abspath('Avarege_for_fit_n_states/TRANS.RES')
-    res_path = os.path.abspath('Avarege_for_fit_n_states/res.res')
+#if os.path.exists(TRANS_path)==False:
+#    TRANS_path =os.path.abspath('Avarege_for_fit_n_states/TRANS.RES')
+#    res_path = os.path.abspath('Avarege_for_fit_n_states/res.res')
 
 
 while(True):
