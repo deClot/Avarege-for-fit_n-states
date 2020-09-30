@@ -47,6 +47,7 @@ while (True):
         else:
             b=0
         if str1.find ('Search',0,len(str1))!=-1: #sodershit matrix
+            print(str1)
             list1=[]
             str1=clearning_string(str1)
             str1=str1.split()
@@ -75,6 +76,7 @@ while (True):
                 list1.append(float(str1[5]))
                 list1.append(float(str1[11]))
                 tell=file.tell()
+                print(list1)
                 #print('tell=',tell)
             else:
                 #if len(str1)>=6 and len(str1)<12:
@@ -97,6 +99,7 @@ while (True):
             if str1.find('Search',0,len(str1))!=-1 or len(str1) == 0:
                 #print('len=',len(list1), list1)
                 avarage=0
+                print(list1)
                 for i in range(len(list1)):
                     avarage=avarage+list1[i]
                     print (avarage, list1[i])
